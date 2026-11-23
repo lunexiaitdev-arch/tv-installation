@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100" fill="none">
+    <!-- Floating Dark Wood Shelf Isometric -->
+    <path d="M24 46L116 34L136 44L44 56Z" fill="#3e2723" filter="drop-shadow(0 8px 12px rgba(0,0,0,0.25))"/>
+    <path d="M24 46L44 56V66L24 56Z" fill="#2d1d19"/>
+    <path d="M44 56L136 44V54L44 66Z" fill="#1b120f"/>
+    <!-- Wood grain subtle sheen -->
+    <path d="M36 48L112 38" stroke="#5d4037" stroke-width="1.5" opacity="0.6"/>
+    <path d="M52 51L124 42" stroke="#5d4037" stroke-width="1.5" opacity="0.6"/>
+  </svg>

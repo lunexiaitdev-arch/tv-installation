@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100" fill="none">
+    <!-- Standard Single Gang Duplex Wall Plate -->
+    <rect x="58" y="12" width="44" height="76" rx="5" fill="#ffffff" stroke="#e5e5e5" stroke-width="2" filter="drop-shadow(0 3px 6px rgba(0,0,0,0.08))"/>
+    <!-- Top Outlet -->
+    <rect x="68" y="24" width="24" height="24" rx="4" fill="#fafafa" stroke="#d4d4d4" stroke-width="1.5"/>
+    <rect x="74" y="30" width="3" height="7" fill="#262626"/>
+    <rect x="83" y="30" width="3" height="7" fill="#262626"/>
+    <path d="M78 41H82V43H78Z" fill="#262626"/>
+    <!-- Center Screw -->
+    <circle cx="80" cy="50" r="2" fill="#d4d4d4" stroke="#a3a3a3" stroke-width="0.5"/>
+    <!-- Bottom Outlet -->
+    <rect x="68" y="54" width="24" height="24" rx="4" fill="#fafafa" stroke="#d4d4d4" stroke-width="1.5"/>
+    <rect x="74" y="60" width="3" height="7" fill="#262626"/>
+    <rect x="83" y="60" width="3" height="7" fill="#262626"/>
+    <path d="M78 71H82V73H78Z" fill="#262626"/>
+  </svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100" fill="none">
+    <!-- Wall Base -->
+    <rect x="20" y="28" width="22" height="44" rx="2" fill="#1c1917" stroke="#44403c" stroke-width="2"/>
+    <!-- Articulating Arms -->
+    <path d="M42 36L78 24L108 36" stroke="#292524" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M42 64L78 76L108 64" stroke="#292524" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="78" cy="24" r="5" fill="#57534e"/>
+    <circle cx="78" cy="76" r="5" fill="#57534e"/>
+    <!-- Front Plate -->
+    <rect x="106" y="20" width="34" height="60" rx="3" fill="#1c1917" stroke="#44403c" stroke-width="2"/>
+    <circle cx="123" cy="50" r="6" fill="#78716c"/>
+    <path d="M110 32H136M110 68H136" stroke="#57534e" stroke-width="3" stroke-linecap="round"/>
+  </svg>

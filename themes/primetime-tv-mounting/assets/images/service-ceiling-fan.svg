@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100" fill="none">
+    <!-- Downrod & Canopy -->
+    <rect x="77" y="12" width="6" height="24" fill="#1c1917"/>
+    <path d="M72 12H88V16H72Z" fill="#1c1917"/>
+    <!-- Fan Blades (Wood finish) -->
+    <path d="M80 36L20 48L24 56L80 40Z" fill="#78350f" stroke="#451a03" stroke-width="1.5"/>
+    <path d="M80 36L140 48L136 56L80 40Z" fill="#78350f" stroke="#451a03" stroke-width="1.5"/>
+    <path d="M80 36L44 26L48 20L80 34Z" fill="#92400e" stroke="#451a03" stroke-width="1.5"/>
+    <path d="M80 36L116 26L112 20L80 34Z" fill="#92400e" stroke="#451a03" stroke-width="1.5"/>
+    <!-- Center Motor Housing -->
+    <circle cx="80" cy="38" r="14" fill="#262626"/>
+    <!-- Light Dome -->
+    <ellipse cx="80" cy="44" rx="10" ry="7" fill="#fef08a" stroke="#ca8a04" stroke-width="1"/>
+  </svg>

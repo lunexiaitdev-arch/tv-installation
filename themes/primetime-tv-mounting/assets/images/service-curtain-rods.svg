@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100" fill="none">
+    <!-- Window Frame -->
+    <rect x="42" y="32" width="76" height="56" fill="#f5f5f5" stroke="#e5e5e5" stroke-width="1.5"/>
+    <!-- Curtain Rod & Finials -->
+    <line x1="24" y1="26" x2="136" y2="26" stroke="#1c1917" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="24" cy="26" r="4.5" fill="#1c1917"/>
+    <circle cx="136" cy="26" r="4.5" fill="#1c1917"/>
+    <rect x="38" y="24" width="4" height="10" fill="#1c1917"/>
+    <rect x="118" y="24" width="4" height="10" fill="#1c1917"/>
+    <!-- Hanging Drapes (Soft beige fabric ripples) -->
+    <path d="M34 26C34 26 38 48 36 84H56C54 48 58 26 58 26Z" fill="#e7dfd5" stroke="#d5c8ba" stroke-width="1"/>
+    <path d="M102 26C102 26 106 48 104 84H124C122 48 126 26 126 26Z" fill="#e7dfd5" stroke="#d5c8ba" stroke-width="1"/>
+  </svg>

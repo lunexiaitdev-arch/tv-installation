@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100" fill="none">
+    <!-- U-Haul Box Truck -->
+    <!-- Box Body -->
+    <rect x="20" y="24" width="84" height="42" rx="2" fill="#ffffff" stroke="#262626" stroke-width="2" filter="drop-shadow(0 6px 8px rgba(0,0,0,0.15))"/>
+    <!-- U-Haul Orange Banner -->
+    <rect x="21" y="32" width="82" height="12" fill="#ea580c"/>
+    <text x="62" y="41" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="9" fill="#ffffff" letter-spacing="1">U-HAUL</text>
+    <!-- Cab -->
+    <path d="M104 38L122 38L134 50L138 52V66H104V38Z" fill="#ffffff" stroke="#262626" stroke-width="2"/>
+    <!-- Cab Window -->
+    <path d="M110 42H122L128 50H110V42Z" fill="#38bdf8" fill-opacity="0.5"/>
+    <!-- Wheels -->
+    <circle cx="42" cy="66" r="10" fill="#1c1917"/>
+    <circle cx="42" cy="66" r="4" fill="#a8a29e"/>
+    <circle cx="120" cy="66" r="10" fill="#1c1917"/>
+    <circle cx="120" cy="66" r="4" fill="#a8a29e"/>
+  </svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 110" width="160" height="110" fill="none">
+  <!-- Back TV (Right) -->
+  <g opacity="0.85">
+    <rect x="74" y="24" width="76" height="46" rx="3" fill="#171717"/>
+    <rect x="76" y="26" width="72" height="42" rx="2" fill="#0f0f0f"/>
+    <rect x="108" y="70" width="8" height="10" fill="#262626"/>
+    <rect x="92" y="78" width="40" height="4" rx="2" fill="#404040"/>
+  </g>
+  <!-- Front TV (Left) -->
+  <g>
+    <rect x="10" y="16" width="96" height="58" rx="3" fill="#0a0a0a" filter="drop-shadow(0 6px 12px rgba(0,0,0,0.2))"/>
+    <rect x="12" y="18" width="92" height="54" rx="2" fill="url(#tv2-grad)"/>
+    <path d="M12 18L50 18L22 72L12 72Z" fill="white" fill-opacity="0.05"/>
+    <rect x="54" y="74" width="8" height="12" fill="#262626"/>
+    <rect x="36" y="84" width="44" height="5" rx="2.5" fill="#404040"/>
+  </g>
+  <defs>
+    <linearGradient id="tv2-grad" x1="12" y1="18" x2="104" y2="72" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#262626"/>
+      <stop offset="1" stop-color="#0a0a0a"/>
+    </linearGradient>
+  </defs>
+</svg>

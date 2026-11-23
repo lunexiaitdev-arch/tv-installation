@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100" fill="none">
+    <!-- Pickup Truck -->
+    <path d="M22 56L26 44L44 42L66 32L106 32L116 44L142 46C144 46 146 48 146 50L144 68L22 68Z" fill="#ffffff" stroke="#262626" stroke-width="2" filter="drop-shadow(0 6px 8px rgba(0,0,0,0.15))"/>
+    <!-- Windows -->
+    <path d="M68 36L92 36L90 44L68 44Z" fill="#38bdf8" fill-opacity="0.5"/>
+    <path d="M96 36L112 44H94V36Z" fill="#38bdf8" fill-opacity="0.5"/>
+    <!-- Truck Bed Opening -->
+    <line x1="28" y1="44" x2="64" y2="44" stroke="#171717" stroke-width="2"/>
+    <!-- Wheels -->
+    <circle cx="48" cy="68" r="12" fill="#1c1917"/>
+    <circle cx="48" cy="68" r="5" fill="#a8a29e"/>
+    <circle cx="122" cy="68" r="12" fill="#1c1917"/>
+    <circle cx="122" cy="68" r="5" fill="#a8a29e"/>
+    <!-- Headlight -->
+    <path d="M142 50L145 52L144 58H140V50Z" fill="#facc15"/>
+  </svg>

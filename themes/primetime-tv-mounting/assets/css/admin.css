@@ -1,0 +1,332 @@
+/* ==========================================================================
+   Prime Time TV Mounting — SaaS Executive Control Center Styles
+   ========================================================================== */
+
+.pttm-admin-wrap {
+  max-width: 1280px;
+  margin: 20px 20px 40px 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+/* SaaS Header */
+.pttm-saas-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0f172a;
+  color: #ffffff;
+  padding: 24px 32px;
+  border-radius: 14px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.15);
+}
+
+.pttm-saas-header-main {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.pttm-saas-brand-mark {
+  width: 52px;
+  height: 52px;
+  background: linear-gradient(135deg, #8c5f34 0%, #b8860b 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(140, 95, 52, 0.4);
+}
+
+.pttm-saas-brand-mark .dashicons {
+  font-size: 28px;
+  width: 28px;
+  height: 28px;
+  color: #ffffff;
+}
+
+.pttm-saas-title {
+  margin: 0 0 4px 0;
+  font-size: 22px;
+  font-weight: 800;
+  color: #ffffff !important;
+  letter-spacing: -0.02em;
+}
+
+.pttm-saas-desc {
+  margin: 0;
+  color: #94a3b8;
+  font-size: 13.5px;
+}
+
+.pttm-saas-header-actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.pttm-saas-btn {
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  padding: 8px 16px !important;
+  height: auto !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+}
+
+.pttm-saas-btn-gold {
+  background: #8c5f34 !important;
+  border: 1px solid #754c25 !important;
+  color: #ffffff !important;
+  border-radius: 8px !important;
+  font-weight: 700 !important;
+  padding: 8px 16px !important;
+  font-size: 13.5px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  height: auto !important;
+  cursor: pointer !important;
+  box-shadow: 0 2px 8px rgba(140, 95, 52, 0.25) !important;
+  transition: all 0.15s ease !important;
+}
+
+.pttm-saas-btn-gold:hover {
+  background: #754c25 !important;
+  border-color: #754c25 !important;
+  color: #ffffff !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(140, 95, 52, 0.35) !important;
+}
+
+.pttm-saas-btn-gold .dashicons {
+  font-size: 17px;
+  width: 17px;
+  height: 17px;
+  line-height: 1;
+}
+
+/* SaaS Metrics Bar */
+.pttm-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.pttm-metric-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.pttm-metric-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pttm-metric-icon .dashicons {
+  font-size: 22px;
+  width: 22px;
+  height: 22px;
+}
+
+.pttm-icon-orders {
+  background: #eff6ff;
+  color: #2563eb;
+}
+
+.pttm-icon-leads {
+  background: #fef3c7;
+  color: #d97706;
+}
+
+.pttm-icon-revenue {
+  background: #ecfdf5;
+  color: #059669;
+}
+
+.pttm-icon-completed {
+  background: #f8fafc;
+  color: #64748b;
+}
+
+.pttm-metric-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.pttm-metric-label {
+  font-size: 12px;
+  color: #64748b;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.pttm-metric-value {
+  font-size: 24px;
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1.2;
+}
+
+/* Modern Segmented Control Nav Tabs */
+.pttm-nav-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  background: #f1f5f9;
+  padding: 6px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  margin-bottom: 24px;
+}
+
+.pttm-nav-tabs .nav-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  border: none !important;
+  border-radius: 8px !important;
+  font-weight: 600;
+  color: #475569;
+  padding: 8px 16px !important;
+  font-size: 13.5px;
+  margin: 0 !important;
+  transition: all 0.15s ease;
+  box-shadow: none !important;
+}
+
+.pttm-nav-tabs .nav-tab:hover {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+.pttm-nav-tabs .nav-tab-active {
+  background: #0f172a !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.15) !important;
+}
+
+.pttm-nav-tabs .nav-tab .dashicons {
+  font-size: 16px;
+  margin-right: 0;
+  line-height: 1.3;
+}
+
+/* Tab Content Box */
+.pttm-tab-content {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 28px 32px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+.pttm-tab-intro {
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.pttm-tab-intro h2 {
+  margin: 0 0 6px 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.pttm-tab-intro p {
+  margin: 0;
+  color: #64748b;
+  font-size: 14px;
+}
+
+/* Item Cards List */
+.pttm-cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.pttm-item-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 16px 20px;
+  transition: all 0.15s ease;
+}
+
+.pttm-item-card:hover {
+  border-color: #8c5f34;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.pttm-card-thumb {
+  width: 60px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  flex-shrink: 0;
+}
+
+.pttm-card-thumb img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.pttm-card-box {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.pttm-card-box h3 {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  color: #0f172a;
+}
+
+.pttm-card-box p {
+  margin: 0 0 12px 0;
+  font-size: 13.5px;
+  color: #64748b;
+}
+
+.pttm-card-box code {
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: 700;
+  color: #8c5f34;
+  font-size: 13px;
+}
+
+@keyframes pttmFadeIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: translateY(0); }
+}

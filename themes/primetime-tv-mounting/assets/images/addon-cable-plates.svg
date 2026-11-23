@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100" fill="none">
+    <!-- Upper Plate -->
+    <rect x="36" y="16" width="38" height="68" rx="5" fill="#ffffff" stroke="#e5e5e5" stroke-width="2" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+    <rect x="47" y="32" width="16" height="36" rx="3" fill="#262626"/>
+    <path d="M51 35V65M55 35V65M59 35V65" stroke="#404040" stroke-width="1.5"/>
+    <circle cx="55" cy="24" r="2" fill="#d4d4d4"/>
+    <circle cx="55" cy="76" r="2" fill="#d4d4d4"/>
+    
+    <!-- Lower Plate -->
+    <rect x="86" y="16" width="38" height="68" rx="5" fill="#ffffff" stroke="#e5e5e5" stroke-width="2" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+    <rect x="97" y="32" width="16" height="36" rx="3" fill="#262626"/>
+    <path d="M101 35V65M105 35V65M109 35V65" stroke="#404040" stroke-width="1.5"/>
+    <circle cx="105" cy="24" r="2" fill="#d4d4d4"/>
+    <circle cx="105" cy="76" r="2" fill="#d4d4d4"/>
+  </svg>

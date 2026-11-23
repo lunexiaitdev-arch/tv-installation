@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100" fill="none">
+    <!-- Soundbar body -->
+    <rect x="18" y="38" width="124" height="24" rx="6" fill="#171717" filter="drop-shadow(0 4px 8px rgba(0,0,0,0.3))"/>
+    <rect x="22" y="41" width="116" height="18" rx="4" fill="#262626"/>
+    <!-- Mesh Texture Lines -->
+    <line x1="30" y1="46" x2="30" y2="54" stroke="#404040" stroke-width="1.5"/>
+    <line x1="36" y1="46" x2="36" y2="54" stroke="#404040" stroke-width="1.5"/>
+    <line x1="124" y1="46" x2="124" y2="54" stroke="#404040" stroke-width="1.5"/>
+    <line x1="130" y1="46" x2="130" y2="54" stroke="#404040" stroke-width="1.5"/>
+    <!-- Under TV Mounting Brackets -->
+    <rect x="46" y="24" width="6" height="16" fill="#525252"/>
+    <rect x="108" y="24" width="6" height="16" fill="#525252"/>
+    <!-- Status LED -->
+    <circle cx="80" cy="50" r="1.5" fill="#38bdf8"/>
+  </svg>

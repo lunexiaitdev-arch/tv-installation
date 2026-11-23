@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 110" width="160" height="110" fill="none">
+  <!-- Layer 1 background TVs -->
+  <g opacity="0.6">
+    <rect x="4" y="32" width="48" height="30" rx="2" fill="#333"/>
+    <rect x="6" y="34" width="44" height="26" rx="1.5" fill="#1f1f1f"/>
+    <rect x="108" y="32" width="48" height="30" rx="2" fill="#333"/>
+    <rect x="110" y="34" width="44" height="26" rx="1.5" fill="#1f1f1f"/>
+  </g>
+  <!-- Layer 2 mid TVs -->
+  <g opacity="0.85">
+    <rect x="22" y="24" width="60" height="38" rx="2.5" fill="#222"/>
+    <rect x="24" y="26" width="56" height="34" rx="2" fill="#111"/>
+    <rect x="78" y="24" width="60" height="38" rx="2.5" fill="#222"/>
+    <rect x="80" y="26" width="56" height="34" rx="2" fill="#111"/>
+  </g>
+  <!-- Center Accent TV -->
+  <g>
+    <rect x="42" y="16" width="76" height="48" rx="3" fill="#0a0a0a" filter="drop-shadow(0 8px 16px rgba(0,0,0,0.3))"/>
+    <rect x="44" y="18" width="72" height="44" rx="2" fill="url(#tv4-grad)"/>
+    <path d="M44 18L74 18L54 62L44 62Z" fill="white" fill-opacity="0.06"/>
+    <rect x="76" y="64" width="8" height="10" fill="#262626"/>
+    <rect x="60" y="74" width="40" height="4" rx="2" fill="#444"/>
+  </g>
+  <defs>
+    <linearGradient id="tv4-grad" x1="44" y1="18" x2="116" y2="62" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2a2a2a"/>
+      <stop offset="1" stop-color="#0a0a0a"/>
+    </linearGradient>
+  </defs>
+</svg>

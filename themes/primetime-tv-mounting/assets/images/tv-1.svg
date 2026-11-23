@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 110" width="160" height="110" fill="none">
+  <!-- Screen Shadow -->
+  <rect x="22" y="14" width="116" height="68" rx="4" fill="#0c0a09" filter="drop-shadow(0 6px 12px rgba(0,0,0,0.15))"/>
+  <!-- Bezel / Screen -->
+  <rect x="24" y="16" width="112" height="64" rx="3" fill="#171717"/>
+  <!-- Display Glass Gradient / Reflection -->
+  <rect x="26" y="18" width="108" height="60" rx="2" fill="url(#tv1-grad)"/>
+  <!-- Screen Subtle highlight -->
+  <path d="M26 18L70 18L36 78L26 78Z" fill="white" fill-opacity="0.04"/>
+  <!-- Neck -->
+  <rect x="76" y="80" width="8" height="12" fill="#262626"/>
+  <!-- Base Stand -->
+  <rect x="52" y="90" width="56" height="5" rx="2.5" fill="#404040"/>
+  <defs>
+    <linearGradient id="tv1-grad" x1="26" y1="18" x2="134" y2="78" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#262626"/>
+      <stop offset="1" stop-color="#0a0a0a"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100" fill="none">
+    <!-- Top Shelf -->
+    <rect x="36" y="36" width="88" height="6" rx="2" fill="#a16207" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+    <!-- Potted Plant on top shelf -->
+    <rect x="48" y="22" width="14" height="14" rx="2" fill="#e5e5e5" stroke="#d4d4d4"/>
+    <path d="M55 22C50 14 42 16 46 8C52 14 55 22 55 22Z" fill="#15803d"/>
+    <path d="M55 22C60 14 68 16 64 8C58 14 55 22 55 22Z" fill="#16a34a"/>
+    <!-- Mini Frame on top shelf -->
+    <rect x="74" y="18" width="16" height="18" rx="1" fill="#fff" stroke="#44403c" stroke-width="1.5"/>
+
+    <!-- Bottom Shelf -->
+    <rect x="44" y="68" width="76" height="6" rx="2" fill="#a16207" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+    <!-- Books on bottom shelf -->
+    <rect x="56" y="52" width="6" height="16" fill="#0369a1"/>
+    <rect x="63" y="54" width="5" height="14" fill="#b91c1c"/>
+    <rect x="69" y="50" width="6" height="18" fill="#4d7c0f"/>
+    <!-- Ceramic Vase on bottom shelf -->
+    <path d="M96 68C92 68 90 62 94 56H102C106 62 104 68 100 68Z" fill="#fed7aa"/>
+  </svg>

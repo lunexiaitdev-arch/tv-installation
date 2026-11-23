@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 110" width="160" height="110" fill="none">
+  <!-- Left Back TV -->
+  <g opacity="0.8">
+    <rect x="8" y="26" width="60" height="38" rx="2.5" fill="#1c1c1c"/>
+    <rect x="10" y="28" width="56" height="34" rx="2" fill="#0f0f0f"/>
+    <rect x="35" y="64" width="6" height="8" fill="#262626"/>
+    <rect x="22" y="71" width="32" height="3" rx="1.5" fill="#404040"/>
+  </g>
+  <!-- Right Back TV -->
+  <g opacity="0.8">
+    <rect x="92" y="26" width="60" height="38" rx="2.5" fill="#1c1c1c"/>
+    <rect x="94" y="28" width="56" height="34" rx="2" fill="#0f0f0f"/>
+    <rect x="119" y="64" width="6" height="8" fill="#262626"/>
+    <rect x="106" y="71" width="32" height="3" rx="1.5" fill="#404040"/>
+  </g>
+  <!-- Center Front TV -->
+  <g>
+    <rect x="34" y="16" width="92" height="56" rx="3" fill="#0a0a0a" filter="drop-shadow(0 8px 16px rgba(0,0,0,0.25))"/>
+    <rect x="36" y="18" width="88" height="52" rx="2" fill="url(#tv3-grad)"/>
+    <path d="M36 18L72 18L46 70L36 70Z" fill="white" fill-opacity="0.05"/>
+    <rect x="76" y="72" width="8" height="12" fill="#262626"/>
+    <rect x="58" y="82" width="44" height="5" rx="2.5" fill="#404040"/>
+  </g>
+  <defs>
+    <linearGradient id="tv3-grad" x1="36" y1="18" x2="124" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2a2a2a"/>
+      <stop offset="1" stop-color="#0a0a0a"/>
+    </linearGradient>
+  </defs>
+</svg>

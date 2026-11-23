@@ -1,0 +1,14 @@
+# Track Prime Time TV Mounting project source; install third-party dependencies separately
+/plugins/*
+/themes/*
+!/themes/primetime-tv-mounting/
+/uploads/
+/upgrade/
+/cache/
+/wpvividbackups/
+/wpvivid_staging/
+/wpvivid_uploads/
+/mu-plugins/
+.DS_Store
+*.log
+wp-config.php
